@@ -1,7 +1,9 @@
 import os
 import sys
 sys.path.append(os.getcwd())
-from v4.page.page_login import PageLogin
+
+from page.page_login import PageLogin
+
 import pytest
 
 

@@ -1,6 +1,5 @@
-from v4 import page
-from v4.base.base import Base
-
+import page
+from base.base import Base
 
 class PageLogin(Base):
     def page_input_tel(self, tel):
